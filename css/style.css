@@ -6,13 +6,15 @@ body {
 /* (A) FIXED WRAPPER */
 .hwrap {
   overflow: hidden; /* HIDE SCROLL BAR */
-  background:#a6a6a6;
+  background: #a6a6a6;
   color: #ffffff;
-  font-size:x-large;
+  font-size: x-large;
 }
- 
+
 /* (B) MOVING TICKER WRAPPER */
-.hmove { display: flex; }
+.hmove {
+  display: flex;
+}
 
 /* (C) ITEMS - INTO A LONG HORIZONTAL ROW */
 .hitem {
@@ -22,15 +24,23 @@ body {
   padding: 10px; */
   text-align: center;
 }
- 
+
 /* (D) ANIMATION - MOVE ITEMS FROM RIGHT TO LEFT */
 /* 4 ITEMS -400%, CHANGE THIS IF YOU ADD/REMOVE ITEMS */
 @keyframes tickerh {
-  0% { transform: translate3d(100%, 0, 0); }
-  100% { transform: translate3d(-400%, 0, 0); }
+  0% {
+    transform: translate3d(100%, 0, 0);
+  }
+  100% {
+    transform: translate3d(-400%, 0, 0);
+  }
 }
-.hmove { animation: tickerh linear 45s infinite; }
-.hmove:hover { animation-play-state: paused; }
+.hmove {
+  animation: tickerh linear 45s infinite;
+}
+.hmove:hover {
+  animation-play-state: paused;
+}
 .layout_padding {
   padding: 100px 0;
 }
@@ -60,8 +70,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .custom_heading-container h2 {
@@ -75,7 +85,7 @@ body {
   bottom: -5px;
   left: 50%;
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
   width: 50px;
   height: 5px;
   background-color: #319fff;
@@ -85,7 +95,6 @@ body {
 .hero_area {
   height: 100vh;
   background-image: url(../images/bgblur.jpg);
- 
 }
 
 .sub_page .hero_area {
@@ -101,10 +110,10 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   padding: 5px 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .header_section .top_contact-container .tel_container a {
@@ -114,8 +123,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .header_section .top_contact-container .tel_container a img {
@@ -157,7 +166,7 @@ body {
   color: #ffffff;
   text-align: center;
   text-transform: uppercase;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 a,
@@ -175,7 +184,7 @@ a:focus {
 .btn:focus {
   outline: none !important;
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 
 .navbar-brand,
@@ -205,9 +214,9 @@ a:focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  font-family: 'Roboto', sans-serif;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
 }
 
 .login_btn-contanier a img {
@@ -219,8 +228,8 @@ a:focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .navbar-brand img {
@@ -242,10 +251,10 @@ a:focus {
 
 .custom_nav-container .form-inline {
   -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
   -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+  flex-wrap: nowrap;
 }
 
 .custom_nav-container .form-inline input {
@@ -280,8 +289,8 @@ a:focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding-bottom: 75px;
 }
 
@@ -336,7 +345,7 @@ a:focus {
   background-position: center;
   background-color: #2c2c2c;
   -webkit-transform: translateY(-50%) translatex(0);
-          transform: translateY(-50%) translatex(0);
+  transform: translateY(-50%) translatex(0);
 }
 
 .slider_section .carousel-control-prev:hover,
@@ -345,7 +354,7 @@ a:focus {
   width: 55px;
   height: 55px;
   -webkit-transform: translateY(-50%) translatex(-5px);
-          transform: translateY(-50%) translatex(-5px);
+  transform: translateY(-50%) translatex(-5px);
 }
 
 .slider_section .carousel-control-prev {
@@ -388,10 +397,10 @@ a:focus {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   text-align: center;
 }
 
@@ -403,11 +412,11 @@ a:focus {
   min-width: 350px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin: 30px auto;
 }
 
@@ -447,8 +456,8 @@ a:focus {
 
 .discount_section .row {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .discount_section .row .col-lg-7 {
@@ -516,19 +525,19 @@ a:focus {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   width: 300px;
   height: 360px;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   border: 1px solid #a6a6a6;
   margin: 20px 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .health_section .box .img-box img {
@@ -565,8 +574,8 @@ a:focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   padding: 0 15px;
 }
 
@@ -633,11 +642,11 @@ a:focus {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .about_section .container .img-box {
@@ -696,11 +705,11 @@ a:focus {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   color: #2deaf5;
 }
 
@@ -710,9 +719,9 @@ a:focus {
 
 .client_section .carousel-indicators {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  bottom: -25px;   
+  -ms-flex-align: center;
+  align-items: center;
+  bottom: -25px;
 }
 
 .client_section .carousel-indicators li {
@@ -733,7 +742,7 @@ a:focus {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   background-color: #ffffff;
   border-radius: 100%;
 }
@@ -750,14 +759,14 @@ a:focus {
 
 .contact_section .custom_heading-container {
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start;
 }
 
 .contact_section .custom_heading-container h2::after {
   left: 0;
   -webkit-transform: none;
-          transform: none;
+  transform: none;
 }
 
 .contact_section .form_contaier form .form-group {
@@ -768,7 +777,7 @@ a:focus {
   border-radius: 0;
   height: 35px;
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 
 .contact_section .form_contaier form .form-control#exampleInputMessage {
