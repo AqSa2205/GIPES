@@ -6,7 +6,7 @@ body {
 /* (A) FIXED WRAPPER */
 .hwrap {
   overflow: hidden; /* HIDE SCROLL BAR */
-  background: #a6a6a6;
+  background: #ff6788;
   color: #ffffff;
   font-size: x-large;
 }
@@ -42,7 +42,7 @@ body {
   animation-play-state: paused;
 }
 .layout_padding {
-  padding: 100px 0;
+  padding: 100px 0 0 0;
 }
 
 .layout_padding2 {
@@ -94,7 +94,8 @@ body {
 /*header section*/
 .hero_area {
   height: 100vh;
-  background-image: url(../images/bgblur.jpg);
+  /* background-image: url(../images/bgblur.jpg); */
+  background-color: #f9f9f9;
 }
 
 .sub_page .hero_area {
