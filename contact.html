@@ -1,354 +1,336 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <!-- Basic -->
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <!-- Mobile Metas -->
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <!-- Site Metas -->
-    <meta name="keywords" content="" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
+<head>
+<!-- Basic -->
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<!-- Mobile Metas -->
+<meta
+name="viewport"
+content="width=device-width, initial-scale=1, shrink-to-fit=no"
+/>
+<!-- Site Metas -->
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta name="author" content="" />
 
-    <title>GIPES</title>
+<title>GIPES</title>
+<link rel="icon" type="image/x-icon" href="images/icon.png">
+<!-- slider stylesheet -->
+<link
+rel="stylesheet"
+type="text/css"
+href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css"
+/>
 
-    <!-- slider stylesheet -->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css"
-    />
+<!-- font awesome style -->
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+/>
 
-    <!-- font awesome style -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+<!-- bootstrap core css -->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 
-    <!-- bootstrap core css -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+<!-- fonts style -->
+<link
+href="https://fonts.googleapis.com/css?family=Poppins:400,600,700|Roboto:400,700&display=swap"
+rel="stylesheet"
+/>
 
-    <!-- fonts style -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Poppins:400,600,700|Roboto:400,700&display=swap"
-      rel="stylesheet"
-    />
+<!-- Custom styles for this template -->
+<link href="css/style.css" rel="stylesheet" />
+<!-- responsive style -->
+<link href="css/responsive.css" rel="stylesheet" />
+<style>
+.card {
+border: none;
+border: none;
+background-color: transparent;
+}
+.responsive {
+width: 100%;
+height: auto;
+}
+.carousel {
+width: 100% !important;
+max-height: calc(100vh - 81px);
+overflow: hidden;
+}
+.hwrap {
+overflow: hidden;
+}
 
-    <!-- Custom styles for this template -->
-    <link href="css/style.css" rel="stylesheet" />
-    <!-- responsive style -->
-    <link href="css/responsive.css" rel="stylesheet" />
-    <style>
-      .card {
-        border: none;
-      }
-      .responsive {
-        width: 100%;
-        height: auto;
-      }
-      .carousel {
-        width: 100% !important;
-        max-height: calc(100vh - 81px);
-        overflow: hidden;
-      }
-      .hwrap {
-        overflow: hidden;
-      }
+.hmove {
+white-space: nowrap;
+animation: marquee 20s linear infinite;
+}
 
-      .hmove {
-        white-space: nowrap;
-        animation: marquee 20s linear infinite;
-      }
+.hitem {
+display: inline-block;
+padding-right: 1em;
+}
+.card-body{
+background-color: transparent;
+}
+/* 
+.space{
+padding: 25px
+} */
 
-      .hitem {
-        display: inline-block;
-        padding-right: 1em;
-      }
-    </style>
-  </head>
+.card {
+margin-bottom: 20px;
+}
 
-  <body>
-    <div class="hero_area">
-      <!-- header section strats -->
-      <header class="header_section" style="background-color: #ff6788">
-        <div class="container">
-          <div class="top_contact-container">
-            <div class="hwrap">
-              <div class="hmove">
-                <div class="hitem">
-                  Galaxy Initiative For Patient Economic Support (GIPES)
-                </div>
-                <div class="hitem">
-                  Galaxy Initiative For Patient Economic Support (GIPES)
-                </div>
-                <div class="hitem">
-                  Galaxy Initiative For Patient Economic Support (GIPES)
-                </div>
-                <div class="hitem">
-                  Galaxy Initiative For Patient Economic Support (GIPES)
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="container-fluid" style="background-color: rgb(133, 133, 228);">
-          <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
-            <a class="navbar-brand" href="index.html">
-              <img src="images/Galaxy looggoos-02.png" alt="" />
-              <span> GIPES </span>
-            </a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
+@media (max-width: 767px) {
+.card {
+text-align: center;
+}
+}
+</style>
+</head>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <div
-                class="d-flex flex-column flex-lg-row align-items-center w-100 justify-content-between"
-              >
-                <ul class="navbar-nav">
-                  <li class="nav-item active">
-                    <a class="nav-link" href="index.html"
-                      >Home <span class="sr-only">(current)</span></a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="about.html"> About </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="medicine.html"> Medicine </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact us</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-        </div>
-      </header>
+<body>
+<div class="hero_area">
+<!-- header section strats -->
+<header class="header_section" style="background-color: #ff6788">
+<div class="container">
+<div class="top_contact-container">
+<div class="hwrap">
+<div class="hmove">
+<div class="hitem">
+Galaxy Initiative For Patient Economic Support (GIPES)
+</div>
+<div class="hitem">
+Galaxy Initiative For Patient Economic Support (GIPES)
+</div>
+<div class="hitem">
+Galaxy Initiative For Patient Economic Support (GIPES)
+</div>
+<div class="hitem">
+Galaxy Initiative For Patient Economic Support (GIPES)
+</div>
+</div>
+</div>
+</div>
+</div>
+<div
+class="container-fluid"
+style="background-color: rgb(182, 194, 255)"
+>
+<nav class="navbar navbar-expand-lg custom_nav-container pt-3">
+<a class="navbar-brand" href="index.html">
+<img src="images/Galaxy looggoos-02.png" alt="" />
 
-      <!-- Add the necessary CSS and JavaScript files -->
-      <link
-        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css"
-        rel="stylesheet"
-      />
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/js/bootstrap.bundle.min.js"></script>
+</a>
+<button
+class="navbar-toggler"
+type="button"
+data-toggle="collapse"
+data-target="#navbarSupportedContent"
+aria-controls="navbarSupportedContent"
+aria-expanded="false"
+aria-label="Toggle navigation"
+>
+<span class="navbar-toggler-icon"></span>
+</button>
 
-      <!-- Add the responsive styles -->
-      <style>
-       
-                .card {
-                /* padding: 50px;
-                margin: 10px; */
-                border: none;
-                background-color: transparent;
-                }
-                .card-body{
-                        background-color: transparent;
-                }
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+<div
+class="d-flex flex-column flex-lg-row align-items-center w-100 justify-content-between"
+>
+<ul class="navbar-nav">
+<li class="nav-item active">
+<a class="nav-link" href="index.html"
+>Home <span class="sr-only">(current)</span></a
+>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="medicine.html"> Medicine </a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="about.html"> About Us</a>
+</li>
 
-               .space{
-                padding: 25px
-               }
+<li class="nav-item">
+<a class="nav-link" href="contact.html">Contact us</a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+</div>
+</header>
 
-                .card {
-        margin-bottom: 20px;
-        }
-
-        @media (max-width: 767px) {
-        .card {
-        text-align: center;
-        }
-        }
+<!-- Add the necessary CSS and JavaScript files -->
 
 
+<section>
+<div class="card sm-3">
+<img class="card-img-top" src="images/Galaxy building-01.png" alt="Card image cap">
+<div class="card-body">
+</div>
+</div>
+</section>
+<section class=" " style="background-color: whitesmoke; ">
+<div>
+<h1 class="text-uppercase" style="text-align: center; padding-top: 20px;">CONTACT US</h1>
+<div class="card-group">
+<div class="card">
+<a href="https://api.whatsapp.com/send/?phone=923015288141&text&type=phone_number&app_absent=0" style="background-color: whitesmoke; color: #000; border: none; text-decoration: none;">
+<div class="card-body">   
+<img src="images/phone.png" class="card-img-top" style="padding: 100px;" alt="..." /> 
+<div class="space">
+<h5 class="card-title ">Contact us Here</h5>
+<p class="card-text">
+Mobile: 03015288141 <br>
+Tel:+92-21351481115 
+Fax:+9221351481167
+</p>
+</div>
+
+</div>
+</div>
+
+<div class="card">
+
+<a href="https://www.google.com/maps/dir/Galaxy+Pharma+(Pvt)+Limited+%2F+Galaxy+Nutraceuticals+(Pvt)+Limited,+National,+Plot+No.+FD-35,+36-A7+Korangi+Creek+Rd,+Korangi+Creek+Industrial+Park+Korangi+Creek,+Karachi,+Pakistan/24.8042138,67.1068747/@24.8041651,67.1042569,17z/data=!4m8!4m7!1m5!1m1!1s0x3eb33b2c8f9df93d:0x346c6e1cc7d6217a!2m2!1d67.106838!2d24.8041877!1m0?hl=en&entry=ttu" style="background-color: whitesmoke; color: #000; border: none; text-decoration: none;">
+<div class="card-body">   
+<img src="images/locationlogo.png" class="card-img-top"  style="padding: 100px;"  alt="..." /> </a>
+<div class="space">
+<h5 class="card-title">Find Us Here</h5>
+<p class="card-text">Plot No. FD-35-36-A7, Korangi Creek Industrial, Karachi - 75190. Karachi</p>
+</div>
+
+</div>
+</div>
+
+<div class="card">
+
+<a href="https://www.gmail.com" style="background-color: whitesmoke; color: #000; border: none; text-decoration: none;">
+<div class="card-body">   
+<img src="images/emaillogo.png" class="card-img-top"   style="padding: 100px;" alt="..." /> </a>
+<div class="space">
+<h5 class="card-title">Contact Us Via Email</h5>
+<p class="card-text">Email your queries at info@gipes.com.pk</p>
+</div>
+</div>
+</div>
 
 
+</div>
+</div>
 
+</section>
 
-      </style>
+<section class="info_section layout_padding2" style="background-color:rgb(143, 161, 255)">
+<div class="container">
+<div class="row">
+<div class="col-md-3">
+<div class="info_contact">
+<h4>Contact</h4>
+<div class="box">
+<div class="img-box">
+<a href="https://wa.me/1234567890" target="_blank">
+<img src="images/whatsapplogo.png" alt="WhatsApp"  />
+</a>
+</div>
+<div class="detail-box">
+<h6>0301-5288141</h6>
+</div>
+</div>
+<div class="box">
+<div class="img-box">
+<img src="images/email.png" alt="" />
+</div>
+<div class="detail-box">
+<h6>info@gipes.com.pk</h6>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-3">
+<div class="info_menu">
+<h4>Menu</h4>
+<ul class="navbar-nav">
+<li class="nav-item active">
+<a class="nav-link" href="index.html"
+>Home <span class="sr-only">(current)</span></a
+>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="about.html"> About Us </a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="medicine.html"> Medicine </a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="contact.html">Contact Us </a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section>
 
-    
-    
-<body >
-    <section class=" " style="background-color: whitesmoke; padding: 100px;">
-      <div >
+<!-- end info section -->
 
-        <h1 class="text-uppercase" style="text-align: center; padding-top: 20px;">CONTACT US</h1>
+<!-- footer section -->
+<section class="container-fluid footer_section" style="background-color: #ff6788">
+<p>
 
-        <div class="card-group">
-           
+&copy; 2023 All Rights Reserved. Design and Developed by GGC IT Department
+</p>
+</section>
+<!-- footer section -->
 
-                <div class="card">
-                
-                        <a href="https://web.whatsapp.com/" style="background-color: whitesmoke; color: #000; border: none; text-decoration: none;">
-                              
-                                <div class="card-body">   
-                                        <img src="images/whatsapplogo.png" class="card-img-top" alt="..." /> </a>
-                                      <div class="space">
-                                        <h5 class="card-title ">Find Us Here</h5>
-                                        <p class="card-text">Contact us Here
-                                                Mobile: 03015288141 <br>
-                                                Tel:+92-21351481115 
-                                                Fax:+9221351481167
-                                        </p>
-                                      </div>
-                                        
-                                </div>
-                </div>
+<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script
+type="text/javascript"
+src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"
+></script>
+<script type="text/javascript">
+$(".owl-carousel").owlCarousel({
+loop: true,
+margin: 10,
+nav: true,
+navText: [],
+autoplay: true,
+responsive: {
+0: {
+items: 1,
+},
+600: {
+items: 2,
+},
+1000: {
+items: 4,
+},
+},
+});
+</script>
+<script type="text/javascript">
+$(".owl-2").owlCarousel({
+loop: true,
+margin: 10,
+nav: true,
+navText: [],
+autoplay: true,
 
-                <div class="card">
-                       
-                        <a href="https://www.google.com/maps/dir/24.8097798,67.1021604/galaxy+pharma+location/@24.8142149,67.0705544,14z/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3eb33dbfc12462e5:0x7d2c1aba77bba678!2m2!1d67.07451!2d24.7998816?entry=ttu" style="background-color: whitesmoke; color: #000; border: none; text-decoration: none;">
-                                <div class="card-body">   
-                                        <img src="images/locationlogo.png" class="card-img-top" alt="..." /> </a>
-                                       <div class="space">
-                                        <h5 class="card-title">Find Us Here</h5>
-                                        <p class="card-text">Plot No. FD-35-36-A7, Korangi Creek Industrial, Karachi - 75190. Karachi</p>
-                                       </div>
-                                
-                                </div>
-                </div>
-
-                <div class="card">
-                       
-                        <a href="https://www.google.com/maps/dir/24.8097798,67.1021604/galaxy+pharma+location/@24.8142149,67.0705544,14z/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3eb33dbfc12462e5:0x7d2c1aba77bba678!2m2!1d67.07451!2d24.7998816?entry=ttu" style="background-color: whitesmoke; color: #000; border: none; text-decoration: none;">
-                                <div class="card-body">   
-                                        <img src="images/emaillogo.png" class="card-img-top" alt="..." /> </a>
-                                       <div class="space">
-                                        <h5 class="card-title">Contact Us Via Email</h5>
-                                        <p class="card-text">Email your queries at info@gipes.com.pk</p>
-                                       </div>
-                                </div>
-                </div>
-                      
-             
-              </div>
-      </div>
-
-    </section>
-    
-    <section class="info_section layout_padding2" style="background-color: rgb(133, 133, 228);">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3">
-            <div class="info_contact">
-              <h4>Contact</h4>
-              <div class="box">
-                <div class="img-box">
-                  <a href="https://wa.me/1234567890" target="_blank">
-                    <img src="images/whatsapplogo.png" alt="WhatsApp" />
-                  </a>
-                </div>
-                <div class="detail-box">
-                  <h6>0301-5288141</h6>
-                </div>
-              </div>
-              <div class="box">
-                <div class="img-box">
-                  <img src="images/email.png" alt="" />
-                </div>
-                <div class="detail-box">
-                  <h6>info@gipes.com.pk</h6>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="info_menu">
-              <h4>Menu</h4>
-              <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.html"
-                    >Home <span class="sr-only">(current)</span></a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="about.html"> About </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="medicine.html"> Medicine </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="buy.html">Contact Us </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- end info section -->
-
-    <!-- footer section -->
-    <section class="container-fluid footer_section" style="background-color: #ff6788">
-      <p>
-        
-        &copy; 2023 All Rights Reserved. Design by Galaxy Pharma Private Limited
-      </p>
-    </section>
-    <!-- footer section -->
-
-    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.js"></script>
-    <script
-      type="text/javascript"
-      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"
-    ></script>
-    <script type="text/javascript">
-      $(".owl-carousel").owlCarousel({
-        loop: true,
-        margin: 10,
-        nav: true,
-        navText: [],
-        autoplay: true,
-        responsive: {
-          0: {
-            items: 1,
-          },
-          600: {
-            items: 2,
-          },
-          1000: {
-            items: 4,
-          },
-        },
-      });
-    </script>
-    <script type="text/javascript">
-      $(".owl-2").owlCarousel({
-        loop: true,
-        margin: 10,
-        nav: true,
-        navText: [],
-        autoplay: true,
-
-        responsive: {
-          0: {
-            items: 1,
-          },
-          600: {
-            items: 2,
-          },
-          1000: {
-            items: 4,
-          },
-        },
-      });
-    </script>
-  </body>
+responsive: {
+0: {
+items: 1,
+},
+600: {
+items: 2,
+},
+1000: {
+items: 4,
+},
+},
+});
+</script>
+</body>
 </html>

@@ -145,17 +145,17 @@ body {
   }
 }
 
-.header_section .container-fluid {
-  padding-right: 25px;
-  padding-left: 25px;
-}
+// .header_section .container-fluid {
+//   padding-right: 25px;
+//   padding-left: 25px;
+// }
 
 .header_section .nav_container {
   margin: 0 auto;
 }
 
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
-  padding: 10px 25px;
+  // padding: 10px 25px;
   color: #ffffff;
   text-align: center;
   text-transform: uppercase;
@@ -220,7 +220,7 @@ a:focus {
 }
 
 .navbar-brand img {
-  width: 40px;
+  width: 250px;
   margin-right: 5px;
 }
 
@@ -233,7 +233,7 @@ a:focus {
 
 .custom_nav-container {
   z-index: 99999;
-  padding: 10px 0;
+  // padding: 10px 0;
 
   .form-inline {
     flex-grow: 1;
@@ -445,7 +445,7 @@ a:focus {
       font-weight: bold;
 
       span {
-        color: $primary;
+        color: rgb(182, 194, 255);
       }
     }
 
@@ -454,7 +454,7 @@ a:focus {
     }
 
     a {
-      @include hero_btn($primary, $white, 10px, 45px);
+      @include hero_btn($rgb(182, 194, 255), $white, 10px, 45px);
       margin-top: 35px;
     }
   }
@@ -471,12 +471,12 @@ a:focus {
 // health section
 .health_section {
   .health_carousel-container {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
   }
 
   a {
-    @include hero_btn(#2c2c2c, $white, 10px, 45px);
+    @include hero_btn(#2c2c2c, $white);
     margin-top: 30px;
   }
 
@@ -505,7 +505,7 @@ a:focus {
         margin: -0.5px 0 0 -0.5px;
 
         &:hover {
-          background-color: $primary;
+          background-color: $rgb(182, 194, 255);
           color: $white;
           border-color: transparent;
         }
@@ -533,7 +533,7 @@ a:focus {
             margin-left: 15px;
 
             span {
-              color: $primary;
+              color: $rgb(182, 194, 255);
             }
           }
         }
@@ -555,7 +555,7 @@ a:focus {
       background-repeat: no-repeat;
 
       &:hover {
-        background-color: $primary;
+        background-color: $rgb(182, 194, 255);
       }
     }
 
@@ -637,7 +637,7 @@ a:focus {
           display: flex;
           flex-direction: column;
           align-items: center;
-          color: #2deaf5;
+          color: rgb(182, 194, 255);
 
           img {
             margin-top: 5px;
