@@ -484,7 +484,7 @@ a:focus {
 }
 
 .discount_section .detail-box h2 span {
-  color: #rgb(182, 194, 255);
+  color: rgb(182, 194, 255);
 }
 
 .discount_section .detail-box p {
